@@ -1,0 +1,115 @@
+:root {
+
+    /* Fundos */
+
+    --color-background: #131312;
+
+    --color-surface: #131312;
+    --color-surface-dim: #131312;
+    --color-surface-bright: #393937;
+
+    --color-surface-lowest: #0e0e0d;
+    --color-surface-low: #1c1c1a;
+    --color-surface-container: #20201e;
+    --color-surface-high: #2a2a28;
+    --color-surface-highest: #353533;
+
+    /* Textos */
+
+    --color-text-primary: #e5e2df;
+    --color-text-secondary: #c4c6cf;
+    --color-text-inverse: #31302f;
+    --color-text-muted: #8e9198;
+
+    /* Azul marinho */
+
+    --color-navy-dark: #001429;
+    --color-navy: #001f3f;
+    --color-navy-light: #2f486a;
+    --color-navy-soft: #476083;
+
+    /* Creme */
+
+    --color-cream-dark: #cfc8be;
+    --color-cream: #e5e2df;
+    --color-off-white: #ebe8e4;
+    --color-cream-light: #f5f2ee;
+
+    /* Cores da marca */
+
+    --color-copper-dark: #B87333;
+    --color-copper: #D28E4D;
+    --color-copper-light: #FFB77B;
+
+    /* Cervejas */
+
+    --color-pilsen: #F2C94C;
+    --color-malzbier: #2D1B0D;
+    --color-ipa: #A65E2E;
+    --color-weiss: #F2E8B3;
+
+    /* Bordas */
+
+    --outline: #8e9198;
+    --outline-variant: #43474e;
+
+    /* Fontes */
+
+    --font-title: "EB Garamond", serif;
+    --font-body: "Hanken Grotesk", sans-serif;
+
+    /* Tamanho das fontes */
+
+    --fs-display-lg: 4rem;
+    --fs-headline-lg: 2.5rem;
+    --fs-headline-md: 1.75rem;
+
+    --fs-body-lg: 1.125rem;
+    --fs-body-md: 1rem;
+
+    --fs-label-sm: 0.75rem;
+
+    /* Altura das linhas */
+
+    --lh-display-lg: 72px;
+    --lh-headline-lg: 48px;
+    --lh-headline-md: 36px;
+
+    --lh-body-lg: 28px;
+    --lh-body-md: 24px;
+
+    /* Espaçamentos */
+
+    --space-xs: 8px;
+    --space-sm: 16px;
+    --space-md: 24px;
+    --space-lg: 48px;
+    --space-xl: 80px;
+
+    /* Container */
+
+    --container-width: 1280px;
+
+    /* Bordas arredondadas */
+
+    --radius-sm: 2px;
+    --radius: 4px;
+    --radius-md: 6px;
+    --radius-lg: 8px;
+    --radius-xl: 12px;
+
+    /* Transições */
+
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s ease;
+    --transition-slow: 0.5s ease;
+
+    /* Efeitos */
+
+    --gradient-copper: linear-gradient(
+        135deg,
+        #B87333,
+        #D28E4D
+    );
+
+}

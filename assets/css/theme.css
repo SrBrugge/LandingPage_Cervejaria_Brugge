@@ -34,7 +34,7 @@ nav a {
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9)), url(../assets/images/hero/brewery-cellar.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9)), url(../../assets/images/hero/brewery-cellar.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -68,7 +68,7 @@ header a {
 }
 
 .imagem-hover {
-    background-image: url(../assets/images/hero/hops-hands.webp);
+    background-image: url(../../assets/images/hero/hops-hands.webp);
     background-size: cover;
     background-position: center;
     border: 2px solid var(--outline);

@@ -62,7 +62,7 @@
 
     --fs-display-lg: 4rem;
     --fs-headline-lg: 2.5rem;
-    --fs-headline-md: 1.75rem;
+    --fs-headline-md: 1.5rem;
 
     --fs-body-lg: 1.125rem;
     --fs-body-md: 1rem;
@@ -88,7 +88,7 @@
 
     /* Container */
 
-    --container-width: 1280px;
+    --container-height: 900px;
 
     /* Bordas arredondadas */
 

@@ -1,11 +1,233 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brugge`s</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/images/logo/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Brugge</title>
 </head>
+
 <body>
-    
+    <nav>
+        <a href="#">Brugge</a>
+        <div class="actions">
+            <ul>
+                <li><a href="#history">Nossa História</a></li>
+                <li><a href="#beers">Cervejas</a></li>
+                <li><a href="#process">Processo</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+            </ul>
+        </div>
+        <div class="menu">
+            <a href="#">
+                <span>ONDE ENCONTRAR</span>
+                <span class="material-symbols-outlined">shopping_bag</span>
+            </a>
+        </div>
+    </nav>
+    <header class="container">
+        <img src="assets/images/logo/logo-brugge.webp" alt="Logo Brugge" class="logo" />
+        <h1 class="title">CERVEJARIA BRUGGE</h1>
+        <p>mais que sabor de cerveja, fabricamos qualidade e tradição</p>
+        <a href="#gallery">CONHEÇA NOSSOS RÓTULOS<span class="material-symbols-outlined">arrow_downward</span></a>
+    </header>
+    <main>
+        <section id="history" class="container">
+            <div class="imagem-hover">
+
+            </div>
+            <div>
+                <span>Nossa História</span>
+                <h2 class="title">Tradição que se traduz em cada gole.</h2>
+                <p>
+                    Cerveja de produção artesanal, de alta qualidade, que mata sua sede.
+                    Na Cervejaria Brugge, honramos as receitas clássicas europeias para
+                    entregar uma experiência incomparável no seu copo. Cada lote é uma
+                    celebração ao tempo, aos ingredientes puros e à paciência necessária
+                    para alcançar a perfeição.
+                </p>
+                <div>
+                    <span>18+</span>
+                    <span>Anos de tradição</span>
+                </div>
+                <div>
+                    <span>4</span>
+                    <span>Estilos clássicos</span>
+                </div>
+            </div>
+        </section>
+        <section id="beers" class="container">
+            <span>PORTFÓLIO</span>
+            <h2 class="title">Nossos Rótulos</h2>
+            <div class="card-container">
+                <input type="checkbox" id="pilsen" />
+                <div class="card">
+                    <div class="front">
+                        <h3 class="title">Pilsen</h3>
+                        <span>4.5% ABV | 12 IBU</span>
+                        <p>Leve, dourada e extremamente refrescante</p>
+                        <label for="pilsen" class="btn">VER FICHA TÉCNICA</label>
+                        <img src="./assets/images/beers/pilsen-glass.webp"
+                            alt=" Copo de cerveja pilsen dourada com espuma cremosa em destaque sobre fundo neutro" />
+                    </div>
+                    <div class="back">
+                        <h4>Ficha Técnica</h4>
+                        <label for="pilsen" class="btn"><span class="material-symbols-outlined">close</span></label>
+                        <div>
+                            <span>COR / SRM</span>
+                            <span>Dourado / 4 SRM</span>
+                        </div>
+                        <div>
+                            <span>AMARGOR</span>
+                            <span>12 IBU</span>
+                        </div>
+                        <div>
+                            <span>MALTES</span>
+                            <span>Pilsner, Munich</span>
+                        </div>
+                        <div>
+                            <span>LÚPULOS</span>
+                            <span>Saaz, Hallertau</span>
+                        </div>
+                        <div>
+                            <span>HARMONIZAÇÃO</span>
+                            <span>Peixes e saladas</span>
+                        </div>
+                        <div>
+                            <span>TEMP</span>
+                            <span>2-4°C</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <input type="checkbox" id="malzbier" />
+                <div class="card">
+                    <div class="front">
+                        <h3 class="title">Malzbier</h3>
+                        <span>4.0% ABV | 15 IBU</span>
+                        <p>Encorpada e ligeramente adocicada</p>
+                        <label for="malzbier" class="btn">VER FICHA TÉCNICA</label>
+                        <img src="./assets/images/beers/malzbier-glass.webp"
+                            alt=" Copo de cerveja malzbier escura com espuma cremosa em destaque sobre fundo neutro" />
+                    </div>
+                    <div class="back">
+                        <h4 class="title">Ficha Técnica</h4>
+                        <label for="malzbier" class="btn"><span class="material-symbols-outlined">close</span></label>
+                        <div>
+                            <span>COR / SRM</span>
+                            <span>Escuro / 35 SRM</span>
+                        </div>
+                        <div>
+                            <span>AMARGOR</span>
+                            <span>15 IBU</span>
+                        </div>
+                        <div>
+                            <span>MALTES</span>
+                            <span>Caramelho, Tostado</span>
+                        </div>
+                        <div>
+                            <span>LÚPULOS</span>
+                            <span>Magnum</span>
+                        </div>
+                        <div>
+                            <span>HARMONIZAÇÃO</span>
+                            <span>Doces e Chocolates</span>
+                        </div>
+                        <div>
+                            <span>TEMP</span>
+                            <span>4-6°C</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <input type="checkbox" id="ipa" />
+                <div class="card">
+                    <div class="front">
+                        <h3 class="title">IPA</h3>
+                        <span>6.5% ABV | 55 IBU</span>
+                        <p>Amargor potente, aroma cítrico e floral.</p>
+                        <label for="ipa" class="btn">VER FICHA TÉCNICA</label>
+                        <img src="./assets/images/beers/ipa-glass.webp"
+                            alt=" Copo de cerveja IPA dourada com espuma cremosa em destaque sobre fundo neutro" />
+                    </div>
+                    <div class="back">
+                        <h4 class="title">Ficha Técnica</h4>
+                        <label for="ipa" class="btn"><span class="material-symbols-outlined">close</span></label>
+                        <div>
+                            <span>COR / SRM</span>
+                            <span>Âmbar / 12 SRM</span>
+                        </div>
+                        <div>
+                            <span>AMARGOR</span>
+                            <span>55 IBU</span>
+                        </div>
+                        <div>
+                            <span>MALTES</span>
+                            <span>Pale ale, Crystal</span>
+                        </div>
+                        <div>
+                            <span>LÚPULOS</span>
+                            <span>Citra, Mosaic</span>
+                        </div>
+                        <div>
+                            <span>HARMONIZAÇÃO</span>
+                            <span>Comidas picantes e Carnes</span>
+                        </div>
+                        <div>
+                            <span>TEMP</span>
+                            <span>7-10°C</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <input type="checkbox" id="weisse" />
+                <div class="card">
+                    <div class="front">
+                        <h3 class="title">Weisse</h3>
+                        <span>5.0% ABV | 10 IBU</span>
+                        <p>Cerveja clássica de trigo. Aromas frutados.</p>
+                        <label for="weisse" class="btn">VER FICHA TÉCNICA</label>
+                        <img src="./assets/images/beers/weiss-glass.webp"
+                            alt=" Copo de cerveja weisse de trigo com espuma cremosa em destaque sobre fundo neutro" />
+                    </div>
+                    <div class="back">
+                        <h4 class="title">Ficha Técnica</h4>
+                        <label for="weisse" class="btn"><span class="material-symbols-outlined">close</span></label>
+                        <div>
+                            <span>COR / SRM</span>
+                            <span>Palha / 3 SRM</span>
+                        </div>
+                        <div>
+                            <span>AMARGOR</span>
+                            <span>10 IBU</span>
+                        </div>
+                        <div>
+                            <span>MALTES</span>
+                            <span>Trigo, Pilsner</span>
+                        </div>
+                        <div>
+                            <span>LÚPULOS</span>
+                            <span>Tettnanger</span>
+                        </div>
+                        <div>
+                            <span>HARMONIZAÇÃO</span>
+                            <span>Queijos leves e Frutas</span>
+                        </div>
+                        <div>
+                            <span>TEMP</span>
+                            <span>4-6°C</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>

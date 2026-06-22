@@ -1,4 +1,128 @@
 /* Tema e estilos */
+.title {
+    font-family: var(--font-title);
+}
+
 body {
+    font-family: var(--font-body);
+}
+
+nav {
+    background-color: rgba(14, 14, 13, 0.98);
+    border-bottom: solid 1px var(--color-copper);
+}
+
+nav>a:nth-child(1) {
+    color: var(--color-copper-dark);
+    font-family: var(--font-title);
+    font-size: var(--fs-headline-md);
+}
+
+.menu {
+    border: solid 1px var(--color-copper);
+    padding: var(--space-xs);
+
+}
+
+nav a:hover {
+    color: var(--color-copper-light);
+    transition: var(--transition-normal);
+}
+
+nav a {
+    color: var(--color-text-primary);
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9)), url(/assets/images/hero/brewery-cellar.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header img {
+    background-color: var(--color-copper-dark);
+    border-radius: var(--radius-lg);
+    animation: breathing 3s ease-in-out infinite;
+}
+
+header h1 {
+    font-size: var(--fs-display-lg);
+    color: var(--color-text-primary);
+}
+
+header p {
+    font-size: var(--fs-headline-md);
+    color: var(--color-text-secondary);
+}
+
+header a {
     background-color: var(--color-copper);
+    border-radius: var(--radius-lg);
+    border: 2px solid var(--color-copper-light);
+    color: var(--color-text-primary);
+    font-weight: 700;
+}
+
+#history {
+    background-color: var(--color-cream-dark);
+}
+
+.imagem-hover {
+    background-image: url(/assets/images/hero/hops-hands.webp);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid var(--outline);
+    border-radius: var(--radius-xl);
+
+    filter: grayscale(100%) brightness(0.5);
+    transition: all 0.8s ease-in-out;
+    overflow: hidden;
+}
+
+.imagem-hover:hover {
+    filter: grayscale(0%) brightness(1);
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes breathing {
+    0% {
+        transform: scale(1);
+        opacity: 0.90;
+    }
+
+    50% {
+        transform: scale(1.05);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0.90;
+    }
 }

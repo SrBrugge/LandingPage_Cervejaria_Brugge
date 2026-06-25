@@ -1,6 +1,7 @@
 /* Tema e estilos */
 .title {
     font-family: var(--font-title);
+    text-align: center;
 }
 
 body {
@@ -34,7 +35,7 @@ nav a {
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9)), url(../../assets/images/hero/brewery-cellar.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.9)), url(../../assets/images/hero/brewery-cellar.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -42,7 +43,6 @@ header {
 header img {
     background-color: var(--color-copper-dark);
     border-radius: var(--radius-lg);
-    animation: breathing 3s ease-in-out infinite;
 }
 
 header h1 {
@@ -61,17 +61,17 @@ header a {
     border: 2px solid var(--color-copper-light);
     color: var(--color-text-primary);
     font-weight: 700;
+    animation: breathing 3s ease-in-out infinite;
 }
 
 #history {
-    background-color: var(--color-cream-dark);
+    background-color: var(--color-cream);
 }
 
 .imagem-hover {
     background-image: url(../../assets/images/hero/hops-hands.webp);
     background-size: cover;
     background-position: center;
-    border: 2px solid var(--outline);
     border-radius: var(--radius-xl);
 
     filter: grayscale(100%) brightness(0.5);
@@ -81,7 +81,30 @@ header a {
 
 .imagem-hover:hover {
     filter: grayscale(0%) brightness(1);
-    transform: scale(1.05);
+}
+.title2 {
+    font-family: var(--font-title);
+    font-size: var(--fs-headline-lg);
+    font-weight: 900;
+    color: var(--color-malzbier);
+}
+
+#history p {
+    font-size: var(--fs-headline-md);
+    color: var(--color-malzbier);
+    
+}
+
+.textcooper span:first-child {
+    font-size: var(--fs-headline-lg);
+    color: var(--color-copper);
+}
+
+.textcooper span:last-child {
+    font-size: var(--fs-body-md);
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 8px;
 }
 
 

@@ -54,8 +54,28 @@ header a {
     
 }
 #history>div:last-child {
+    min-width: 300px;
     flex: 1;
+    padding-left: 80px;
+}
+#history p{
+    max-width: 400px;
+    margin-bottom: 60px;
+    padding-top: 20px;
 }
 .imagem-hover{
     flex: 1;
+}
+.title {
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+.textcooper {
+    display: inline-flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+.status {
+    display: flex;
+    flex-direction: row;
 }

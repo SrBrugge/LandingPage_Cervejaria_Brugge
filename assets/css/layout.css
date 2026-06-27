@@ -73,9 +73,50 @@ header a {
 .textcooper {
     display: inline-flex;
     flex-direction: column;
-    margin-right: 100px;
 }
+
 .status {
     display: flex;
     flex-direction: row;
+}
+.status>div {
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#beers {
+    display: flex;
+    flex-direction: column;
+}
+.tapsbeers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card-container input{
+    display: none;
+}
+.card {
+
+}
+.front img {
+    width: 400px;
+    align-self: ;
+}
+.front {
+    width: 300px;
+    height: 450px;
+}
+.back {
+    width: 300px;
+    height: 450px;
+}
+
+
+.portifolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }

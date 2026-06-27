@@ -94,20 +94,48 @@ header a {
     color: var(--color-malzbier);
     
 }
-
-.textcooper span:first-child {
-    font-size: var(--fs-headline-lg);
+.line {
+    width: 100px;
+    border-bottom: 1px solid var(--color-copper);
+}
+.status .textcooper {
+    font-size: var(--fs-headline-md);
+}
+.textcooper {
     color: var(--color-copper);
 }
 
-.textcooper span:last-child {
+.textfoot{
     font-size: var(--fs-body-md);
     text-transform: uppercase;
     color: #000;
     margin-top: 8px;
 }
 
+#beers {
+    background-color: var(--color-navy-light);
+}
+.portifolio .title {
+    font-size: var(--fs-headline-lg);
+}
 
+.card-container {
+
+}
+.card {
+    
+}
+
+.front {
+    color: var(--color-text-primary);
+    background-color: var(--color-navy-dark);
+    border: 2px solid var(--color-copper-dark);
+}
+.back {
+    color: var(--color-text-primary);
+    background-color: var(--color-navy-light);
+    border: 2px solid var(--color-copper-light);
+}
 
 
 

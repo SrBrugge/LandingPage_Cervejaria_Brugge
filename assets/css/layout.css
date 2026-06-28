@@ -86,37 +86,82 @@ header a {
 }
 
 #beers {
-    display: flex;
-    flex-direction: column;
+    margin: auto;
+    height: auto;
+    padding: 100px;
 }
-.tapsbeers {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.card-container input{
-    display: none;
-}
-.card {
-
-}
-.front img {
-    width: 400px;
-    align-self: ;
-}
-.front {
-    width: 300px;
-    height: 450px;
-}
-.back {
-    width: 300px;
-    height: 450px;
-}
-
 
 .portifolio {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: var(--space-lg);
+}
+
+.tapsbeers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+    width: 100%;
+}
+
+.card-container input {
+    display: none;
+}
+
+.card-container {
+    width: 100%;
+    max-width: 340px;
+}
+
+.card {
+    width: 100%;
+    aspect-ratio: 7/10;
+    position: relative; 
+}
+
+.front,
+.back {
+    position: absolute; 
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: var(--space-md);
+    border-radius: var(--radius-xl);
+}
+
+.front {
+    z-index: 2;
+}
+
+.back {
+    z-index: 1;
+}
+
+.card-container input:checked ~ .card .front {
+    z-index: 1;
+}
+
+.card-container input:checked ~ .card .back {
+    z-index: 2;
+}
+
+.front img {
+    margin-top: auto;
+}
+
+.back div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--space-md);
+    border-bottom: 1px solid var(--color-cream-dark);
+    padding-bottom: 4px;
+    font-size: var(--fs-body-md);
+}
+
+.btn {
+    margin: 15px;
     text-align: center;
 }

@@ -116,27 +116,28 @@ header a {
     background-color: var(--color-navy-light);
 }
 .portifolio .title {
+    color: var(--color-cream-light);
     font-size: var(--fs-headline-lg);
 }
-
-.card-container {
-
+.front img {
+    border-radius: 2rem;
 }
-.card {
-    
-}
-
 .front {
     color: var(--color-text-primary);
     background-color: var(--color-navy-dark);
     border: 2px solid var(--color-copper-dark);
 }
 .back {
+    position: ;
     color: var(--color-text-primary);
-    background-color: var(--color-navy-light);
-    border: 2px solid var(--color-copper-light);
+    background-color: var(--color-navy);
+    border: 2px solid var(--color-copper);
 }
 
+.btn {
+    color: var(--color-copper-dark);
+    cursor: pointer;
+}
 
 
 

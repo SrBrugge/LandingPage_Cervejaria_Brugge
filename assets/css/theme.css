@@ -4,6 +4,14 @@
     text-align: center;
 }
 
+.titleSection {
+    color: var(--color-cream-light);
+    font-size: var(--fs-headline-lg);
+    Font-family: var(--font-title);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 body {
     font-family: var(--font-body);
 }
@@ -35,7 +43,7 @@ nav a {
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.9)), url(../../assets/images/hero/brewery-cellar.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.9)), url(../../assets/images/hero/brewery-cellar.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -82,7 +90,8 @@ header a {
 .imagem-hover:hover {
     filter: grayscale(0%) brightness(1);
 }
-.title2 {
+
+.titlehist {
     font-family: var(--font-title);
     font-size: var(--fs-headline-lg);
     font-weight: 900;
@@ -92,20 +101,23 @@ header a {
 #history p {
     font-size: var(--fs-headline-md);
     color: var(--color-malzbier);
-    
+
 }
+
 .line {
     width: 100px;
     border-bottom: 1px solid var(--color-copper);
 }
+
 .status .textcooper {
     font-size: var(--fs-headline-md);
 }
+
 .textcooper {
     color: var(--color-copper);
 }
 
-.textfoot{
+.textfoot {
     font-size: var(--fs-body-md);
     text-transform: uppercase;
     color: #000;
@@ -115,20 +127,18 @@ header a {
 #beers {
     background-color: var(--color-navy-light);
 }
-.portifolio .title {
-    color: var(--color-cream-light);
-    font-size: var(--fs-headline-lg);
-}
+
 .front img {
     border-radius: 2rem;
 }
+
 .front {
     color: var(--color-text-primary);
     background-color: var(--color-navy-dark);
     border: 2px solid var(--color-copper-dark);
 }
+
 .back {
-    position: ;
     color: var(--color-text-primary);
     background-color: var(--color-navy);
     border: 2px solid var(--color-copper);
@@ -139,9 +149,28 @@ header a {
     cursor: pointer;
 }
 
+#process {
+    background-color: var(--color-surface);
+    color: var(--color-cream);
+}
 
-
-
+.ingrediente {
+    margin-top: 2rem;
+    width: 15%;
+    height: 60%;
+    padding: 20px;
+}
+.ingrediente img {
+    margin-bottom: 1rem;
+    border: 2px solid var(--color-copper-dark);
+    border-radius: 30%;
+    
+    transition: all 0.3s ease-in-out;
+}
+.ingrediente img:hover{
+    transform: scale(1.1);
+    border: 2px solid var(--color-copper-light);
+}
 
 
 

@@ -26,7 +26,6 @@ li {
     padding: var(--space-xs);
 }
 .container {
-    height: var(--container-height);
     padding-top: 80px;
     margin: 0 auto;
 }
@@ -35,6 +34,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: var(--container-height);
 }
 header img {
     width: 250px;
@@ -164,4 +164,17 @@ header a {
 .btn {
     margin: 15px;
     text-align: center;
+}
+
+#process{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#process article{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
 }

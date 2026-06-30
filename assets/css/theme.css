@@ -200,8 +200,14 @@ header a {
 
 
 
-
-
+.barra {
+border: 1px solid var(--color-ipa);
+}
+.barra-preenchimento {
+    height: 15px;
+    width: 85%;
+    background-color: var(--color-pilsen);
+}
 
 
 

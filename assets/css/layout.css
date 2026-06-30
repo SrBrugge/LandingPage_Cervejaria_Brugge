@@ -217,6 +217,31 @@ header a {
     object-fit: cover;
 }
 
+#venda-status {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+.status-lote {
+display: flex;
+justify-content: space-between;   
+    
+}
+.status-lote .filled-icon {
+
+}
+
+
+
+
+
+
+
+
+
 
 footer {
     width: 100%;

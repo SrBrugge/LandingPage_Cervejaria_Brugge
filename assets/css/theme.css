@@ -10,6 +10,7 @@
     Font-family: var(--font-title);
     text-align: center;
     margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 body {
@@ -149,8 +150,8 @@ header a {
     cursor: pointer;
 }
 
-#process {
-    background-color: var(--color-surface);
+#ingredient {
+    background-color: var(--color-navy);
     color: var(--color-cream);
 }
 
@@ -172,11 +173,51 @@ header a {
     border: 2px solid var(--color-copper-light);
 }
 
+#process {
+    background-color: var(--color-surface);
+}
+
+.step {
+    color: var(--color-cream);
+    background-color: var(--color-surface-low);
+    border: 1px solid var(--color-copper);
+}
+.step--number {
+    border: 1px solid red;
+    width: 10px;
+    height: 10px;
+}
+.step div {
+    position: relative;
+    overflow: hidden;
+}
+.step img:hover {
+    transition:transform 0.7s ease;
+    transform: scale(1.1);
+}
 
 
 
 
 
+
+
+
+
+
+
+footer {
+    background-color: var(--color-surface-lowest);
+    color: var(--color-cream-dark);
+}
+footer a:hover{
+    transition: transform 0.5s ease;
+    transform: translateX(10px);
+    color: var(--color-cream-light);
+}
+.bottom--footer {
+    border-top: 1px solid var(--color-surface-high);
+}
 
 
 

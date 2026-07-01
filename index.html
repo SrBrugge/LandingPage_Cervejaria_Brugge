@@ -390,21 +390,185 @@
           </div>
         </div>
       </section>
-      <section>
-        <article id="venda-status">
-          <div>
-            <h3>Produzimos apenas quartro vezes ao ano...</h3>
-            <p>Nossa dedicação à qualidade exige tempo. Não apressamos a arte</p>
-            <div class="status-lote">
-              <span><span class="material-symbols-outlined filled-icon">notifications</span>STATUS DO LOTE ATUAL</span>
-              <span class="status-porcentagem">85% RESERVADO</span>
-            </div>
-            <div class="barra">
-                <div class="barra-preenchimento"></div>
+      <section id="gallery">
+        <div class="gallery-title">
+          <span class="textcooper">EMBALAGENS</span>
+          <h2 class="title">Conheça nossas embalagens</h2>
+          <div class="line"></div>
+          <p>
+            Produzimos nossas cervejas em garrafas e latas, mantendo a mesma
+            qualidade e tradição em cada lote. Escolha a apresentação que mais
+            combina com você.
+          </p>
+        </div>
+        <div class="gallery-content">
+          <div class="gallery-item">
+            <h3>Garrafas</h3>
+            <div class="carousel-view">
+              <div class="carousel">
+                <img
+                  src="assets/images/beers/pilsen-bottle.webp"
+                  alt="Pilsen"
+                />
+                <img
+                  src="assets/images/beers/malzbier-bottle.webp"
+                  alt="Malzbier"
+                />
+                <img src="assets/images/beers/ipa-bottle.webp" alt="IPA" />
+                <img src="assets/images/beers/weiss-bottle.webp" alt="Weiss" />
+              </div>
             </div>
           </div>
-          <p class="chamada-venda">Garanta seu engradado na nossa próxima brassagem. Vendas exclusivas e limitadas.</p>
-          <button class="btn-whatsapp"><span class="material-symbols-outlined filled-icon">chat</span>QUERO GARANTIR MEU LOTE VIA WHATSAPP</button>
+          <div class="gallery-item">
+            <h3>Latas</h3>
+            <div class="carousel-view">
+              <div class="carousel">
+                <img src="assets/images/beers/pilsen-can.webp" alt="Pilsen" />
+                <img
+                  src="assets/images/beers/malzbier-can.webp"
+                  alt="Malzbier"
+                />
+                <img src="assets/images/beers/ipa-can.webp" alt="IPA" />
+                <img src="assets/images/beers/weiss-can.webp" alt="Weiss" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <article id="venda-status">
+          <div class="chamada-venda">
+            <h2 class="title">Produzimos apenas quartro vezes ao ano...</h2>
+            <p>
+              Nossa dedicação à qualidade exige tempo. Não apressamos a arte
+            </p>
+            <div class="status-lote">
+              <span class="statusDolote"
+                ><span class="material-symbols-outlined filled-icon"
+                  >notifications</span
+                >STATUS DO LOTE ATUAL</span
+              >
+              <span class="status-porcentagem textcooper">85% RESERVADO</span>
+            </div>
+            <div class="barra">
+              <div class="barra-preenchimento"></div>
+            </div>
+          </div>
+          <p class="texto-urgencia">
+            Garanta seu engradado na nossa próxima brassagem. Vendas exclusivas
+            e limitadas.
+          </p>
+          <section class="formulario-venda">
+            <article class="cabecalho-venda">
+              <p class="textcooper">RESERVA DE LOTE</p>
+              <h2 class="title">Ficha de Encomenda</h2>
+              <div class="line"></div>
+            </article>
+            <form class="form-reserva">
+              <div class="campo">
+                <label for="nome">Nome Completo</label>
+                <input
+                  type="text"
+                  id="nome"
+                  name="nome"
+                  placeholder="Seu nome completo"
+                  required
+                />
+              </div>
+              <div class="linha-campos">
+                <div class="campo">
+                  <label for="email">E-mail</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="contato@exemplo.com"
+                    required
+                  />
+                </div>
+                <div class="campo">
+                  <label for="telefone">Telefone</label>
+                  <input
+                    type="tel"
+                    id="telefone"
+                    name="telefone"
+                    placeholder="(00) 00000-0000"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="campo">
+                <label>Seleção de Cervejas</label>
+                <div class="lista-cervejas">
+                  <div class="cerveja">
+                    <label for="pilsen">PILSEN</label>
+                    <select id="pilsen" name="pilsen">
+                      <option value="0">0</option>
+                      <option value="pack6">Pack 6</option>
+                      <option value="pack12">Pack 12</option>
+                      <option value="pack24">Pack 24</option>
+                    </select>
+                  </div>
+                  <div class="cerveja">
+                    <label for="malzbier">MALZBIER</label>
+                    <select id="malzbier" name="malzbier">
+                      <option value="0">0</option>
+                      <option value="pack6">Pack 6</option>
+                      <option value="pack12">Pack 12</option>
+                      <option value="pack24">Pack 24</option>
+                    </select>
+                  </div>
+                  <div class="cerveja">
+                    <label for="ipa">IPA</label>
+                    <select id="ipa" name="ipa">
+                      <option value="0">0</option>
+                      <option value="pack6">Pack 6</option>
+                      <option value="pack12">Pack 12</option>
+                      <option value="pack24">Pack 24</option>
+                    </select>
+                  </div>
+                  <div class="cerveja">
+                    <label for="weisse">WEISSE</label>
+                    <select id="weisse" name="weisse">
+                      <option value="0">0</option>
+                      <option value="pack6">Pack 6</option>
+                      <option value="pack12">Pack 12</option>
+                      <option value="pack24">Pack 24</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="campo">
+                <label for="endereco">Endereço de Entrega</label>
+                <input
+                  type="text"
+                  id="endereco"
+                  name="endereco"
+                  placeholder="Rua, Número, Complemento, Cidade - UF"
+                  required
+                />
+              </div>
+              <div class="campo">
+                <label for="observacoes">Observações</label>
+                <textarea
+                  id="observacoes"
+                  name="observacoes"
+                  rows="5"
+                  placeholder="Alguma instrução especial para a entrega?"
+                ></textarea>
+              </div>
+              <button class="btn-reserva" type="submit">
+                <span class="material-symbols-outlined filled-icon">
+                  inventory
+                </span>
+                CONFIRMAR PEDIDO DE RESERVA
+              </button>
+              <p class="form-aviso">
+                Nossa equipe entrará em contato via e-mail ou telefone para
+                confirmação do estoque e detalhes do frete.
+              </p>
+            </form>
+          </section>
         </article>
       </section>
     </main>

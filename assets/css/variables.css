@@ -3,7 +3,6 @@
     /* Fundos */
 
     --color-background: #131312;
-
     --color-surface: #131312;
     --color-surface-dim: #131312;
     --color-surface-bright: #393937;
@@ -106,10 +105,8 @@
 
     /* Efeitos */
 
-    --gradient-copper: linear-gradient(
-        135deg,
-        #B87333,
-        #D28E4D
-    );
+    --gradient-copper: linear-gradient(135deg,
+            #B87333,
+            #D28E4D);
 
 }
